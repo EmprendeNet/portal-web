@@ -73,8 +73,8 @@ body {
   font-weight: normal;
 }
 .marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 
@@ -95,7 +95,6 @@ body {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {

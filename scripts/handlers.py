@@ -34,9 +34,7 @@ class MainHandler(webapp2.RequestHandler):
 class StaticPage(MainHandler):
 	def get(self):
 		templates = {'': 'inicio.html',
-		             'contacto': 'contacto.html',
-		             'aviso-legal': 'aviso-legal.html',
-		             'mapa-web': 'mapa-web.html'}
+		             'aviso-legal': 'aviso-legal.html'}
 
 		page = self.request.path.split('/')[-1]
 
@@ -51,8 +49,14 @@ class StaticPage(MainHandler):
 
 class Webmap(MainHandler):
 	def get(self):
-		# todo
-		self.response.out.write('')
+		base_url = 'http://www.---.com/'
+
+		urls = ['', 'aviso-legal']
+
+		sitemap = [base_url + u for u in urls]
+
+		self.response.headers['Content-Type'] = 'text/plain'
+		self.response.out.write(sitemap)
 
 
 class Error404(MainHandler):

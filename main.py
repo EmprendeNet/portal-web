@@ -22,8 +22,6 @@ class MainHandler(webapp2.RequestHandler):
 
 # -- App --
 app = webapp2.WSGIApplication([('/', StaticPage),
-                               ('/contacto', StaticPage),
                                ('/aviso-legal', StaticPage),
-                               ('/mapa-web', StaticPage),
                                ('/webmap', Webmap)],
                               debug=True)
