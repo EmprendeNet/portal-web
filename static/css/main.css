@@ -1,13 +1,51 @@
+a {
+	color: #1c818c;
+}
+a:focus, a:hover {
+	color: #c26642;
+}
+
+.btn-primary {
+	background-color: #c26642;
+	border-color: #c26642;
+}
+.input-group-addon {
+	color: white;
+	background-color: #f0a471;
+	border-color: #c26642;
+}
+.form-control {
+	border-color: #c26642;
+}
+
 .featurette-divider_gradient {
     border: 0;
     height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    background: #c26642;
+    background-image: linear-gradient(to right, #f0a471, #c26642, #f0a471);
+}
+.featurette-heading {
+	color: #1c818c;
+}
+.featurette-heading .text-muted{
+	color: #7bbed1;
 }
 
 .carousel-caption {
     top: 60px;
     bottom: auto;
+	color: #c26642;
+	text-shadow: 0 1px 2px rgba(255,255,255,.6);
+}
+.carousel-caption h1 {
+	font-weight: 800;
+}
+
+.carousel-control.left {
+	background-image: linear-gradient(to left,#fae49e 0,#c26642 100%);
+}
+.carousel-control.right {
+	background-image: linear-gradient(to right,#fae49e 0,#c26642 100%);
 }
 
 @media (min-width: 480px){
