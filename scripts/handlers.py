@@ -34,6 +34,7 @@ class MainHandler(webapp2.RequestHandler):
 class StaticPage(MainHandler):
 	def get(self):
 		templates = {'': 'inicio.html',
+		             'mas-informacion': 'mas-informacion.html',
 		             'aviso-legal': 'aviso-legal.html'}
 
 		page = self.request.path.split('/')[-1]

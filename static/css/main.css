@@ -9,6 +9,26 @@ a:focus, a:hover {
 	background-color: #c26642;
 	border-color: #c26642;
 }
+.btn-block {
+	margin: 2rem auto;
+	padding: 12px 12px;
+	font-weight: bold;
+}
+.btn-lg {
+	display: block;
+	width: 240px;
+	max-width: 100%;
+	margin: 2.5rem auto;
+	font-weight: bold;
+}
+.btn-xlg {
+	width: 480px;
+}
+.btn-alt_color {
+	background: #1c818c;
+	border-color: #1c818c;	
+}
+
 .input-group-addon {
 	color: white;
 	background-color: #f0a471;
