@@ -5,6 +5,7 @@ a:focus, a:hover {
 	color: #c26642;
 }
 
+
 .btn-primary {
 	background-color: #c26642;
 	border-color: #c26642;
@@ -22,11 +23,19 @@ a:focus, a:hover {
 	font-weight: bold;
 }
 .btn-xlg {
-	width: 480px;
+	width: 360px;
 }
 .btn-alt_color {
 	background: #1c818c;
 	border-color: #1c818c;	
+}
+.btn:hover {
+    background-color: #1c818c;
+    border-color: #1c818c;
+}
+.btn-alt_color:hover {
+	background-color: #c26642;
+	border-color: #c26642;
 }
 
 .input-group-addon {
