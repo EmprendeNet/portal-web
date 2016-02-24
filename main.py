@@ -14,12 +14,6 @@ import webapp2
 from scripts.handlers import *
 
 
-# -- URL mapping --
-class MainHandler(webapp2.RequestHandler):
-    def get(self):
-        self.response.write('Hello world!')
-
-
 # -- App --
 app = webapp2.WSGIApplication([('/', StaticPage),
                                ('/mas-informacion', StaticPage),
