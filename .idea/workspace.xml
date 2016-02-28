@@ -120,8 +120,8 @@
       <file leaf-file-name="el-equipo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/el-equipo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6527546">
-              <caret line="21" column="137" selection-start-line="21" selection-start-column="137" selection-end-line="21" selection-end-column="137" />
+            <state vertical-scroll-proportion="0.22704507">
+              <caret line="21" column="162" selection-start-line="21" selection-start-column="162" selection-end-line="21" selection-end-column="162" />
               <folding />
             </state>
           </provider>
@@ -187,6 +187,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,7 +222,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -847,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/el-equipo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6527546">
-          <caret line="21" column="137" selection-start-line="21" selection-start-column="137" selection-end-line="21" selection-end-column="137" />
+        <state vertical-scroll-proportion="0.22704507">
+          <caret line="21" column="162" selection-start-line="21" selection-start-column="162" selection-end-line="21" selection-end-column="162" />
           <folding />
         </state>
       </provider>
