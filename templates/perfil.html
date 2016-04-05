@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block head %}
+{% if usuario %}
+	<title>Perfil de {{usuario.nombre}} | EmprendeNet</title>
+{% else %}
+	<title>Usuario no encontrado | EmprendeNet</title>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+{% if error %}
+	<p>{{error | safe}}</p>
+{% endif %}
+
+{% if usuario %}
+	<h1>Perfil de {{usuario.nombre}}</h1>
+
+	<ul>
+		<li>Nombre de usuario: {{usuario.nombre}}</li>
+		<li>Rol: {{usuario.rol}}</li>
+		<li>Fecha de registro: {{usuario.fecha_registro.strftime('%d/%m/%Y')}}</li>
+	</ul>
+
+	{% if propio_usuario %}
+		<a href="/usuario/{{usuario_id}}/perfil/editar">Editar perfil</a>
+	{% endif %}
+{% endif %}
+{% endblock %}

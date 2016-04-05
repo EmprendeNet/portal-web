@@ -1,0 +1,20 @@
+{% extends "/base.html" %}
+
+{% block head %}
+<title>Eliminar usuario | EmprendeNet</title>
+{% endblock %}
+
+{% block content %}
+<h1>Confirmar eliminación de usuario</h1>
+
+<p>¿Está seguro de que desea eliminar su cuenta?</p>
+
+<form method="post">	
+	<label for="confirmar">Eliminar cuenta de usuario</label>
+	<input type="checkbox" name="confirmar" value="confirmar">
+	
+	<input type="submit" value="Confirmar">
+</form>
+
+<a href="/usuario/panel-usuario">Cancelar</a>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "/base.html" %}
+
+{% block head %}
+<title>Editar perfil | EmprendeNet</title>
+{% endblock %}
+
+{% block content %}
+<h1>Editar perfil de {{usuario_nombre}}</h1>
+
+<form method="post">
+	{% if error %}
+		<p>Error: {{error | safe}}</p>
+	{% endif %}
+	
+	<input type="submit" value="Editar perfil">
+</form>
+
+<a href="/usuario/panel-usuario">Cancelar</a>
+{% endblock %}
